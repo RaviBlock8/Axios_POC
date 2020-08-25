@@ -15,7 +15,7 @@ export default function MainContainer() {
 
 const Main = styled(Box)(({ theme }) => ({
   width: "90vw",
-  margin: "7px auto",
+  margin: "10vh auto",
   display: "flex",
   justifyContent: "space-around",
 }));
