@@ -22,6 +22,7 @@ function QTable({ quotations }: props) {
         <TableHead>
           <TableRow>
             <TableCell>Market order Id</TableCell>
+            <TableCell align="right">Quotation Id</TableCell>
             <TableCell align="right">Price</TableCell>
             <TableCell align="right">Volume of shares you will get</TableCell>
           </TableRow>

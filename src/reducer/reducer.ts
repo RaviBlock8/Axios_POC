@@ -2,6 +2,7 @@ export interface Quotation {
   mId: string;
   price: number;
   volume: number;
+  qId: number;
 }
 
 export interface CentralState {
