@@ -12,6 +12,7 @@ export default function QRow({ quote }: props) {
       <TableCell component="th" scope="row">
         {quote.mId}
       </TableCell>
+      <TableCell align="right">{quote.qId}</TableCell>
       <TableCell align="right">{quote.price}</TableCell>
       <TableCell align="right">{quote.volume}</TableCell>
     </TableRow>

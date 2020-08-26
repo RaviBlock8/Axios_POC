@@ -39,6 +39,7 @@ function BuyOrdersContainer({ quotations, setQuotation }: props) {
           mId: res.data.mId,
           price: res.data.price,
           volume: res.data.volume,
+          qId: res.data.qId,
         };
         setQuotation(quote);
         setOpen(true);
